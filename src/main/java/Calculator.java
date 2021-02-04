@@ -7,7 +7,7 @@ public class Calculator {
             return 0;
         }
 
-        String[] numbers = input.split(",|\n");
+        String[] numbers = input.split("[,\n]");
         int sum = 0;
         List<String> negatives = new ArrayList<>();
         for (String number: numbers) {
